@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Lensy",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "AlitaTeal"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.alitateal.lensy.LensyMod"
+    ],
+    "client": [
+      "net.alitateal.lensy.LensyClientMod"
     ]
   },
   "mixins": [
